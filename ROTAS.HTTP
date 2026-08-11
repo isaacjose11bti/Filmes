@@ -1,0 +1,32 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/all-films
+
+###
+POST http://localhost:3000/create-film
+Content-Type: application/json
+
+{
+    "titulo": "ben 10",
+    "genero": "desenho",
+    "duracao": 90,
+    "classificacao": "12"
+}
+
+###
+
+DELETE http://localhost:3000/delete-film/2
+
+###
+
+PUT http://localhost:3000/update-film/2
+Content-Type: application/json
+
+{
+    "titulo": "avatar",
+    "genero": "ficcao",
+    "duracao": "2h",
+    "classificacao": "12"
+}

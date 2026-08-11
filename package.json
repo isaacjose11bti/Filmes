@@ -1,0 +1,25 @@
+{
+  "name": "filmes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacjose11bti/Filmes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/isaacjose11bti/Filmesissues"
+  },
+  "homepage": "https://github.com/isaacjose11bti/Filmes",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.23.2"
+  }
+}
